@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_yemek_tarifi8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.seray.mantaryetistirme7mart.YemekTarifi8Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text=" Kalori Hesapçılarına: Mantar Salatası "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView43"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mantarsalatasitarifi_buton"
+                android:id="@+id/imageView14" />
+
+            <TextView
+                android:text="Düşük kalorili sebzelerin başında gelen mantar, doğru pişirildiğinde hemen hemen tüm diyet içeriklerinin kıymetlisi. Kaldı ki bu tarifte lezzetten biraz ödün vererek mantarları haşladıktan sonra ya da salamura olarak da kullanabilirsiniz."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView44" />
+
+            <TextView
+                android:text="Malzemeler      1/2 adet kıvırcık marul     1/2 adet göbek marul     200 gram kültür mantarı     1 yemek kaşığı zeytinyağı     4 adet bebek mısır     1 adet domates     1 adet kırmızı soğan  Sosu için:      2 yemek kaşığı zeytinyağı     1 tatlı kaşığı hardal     1 tatlı kaşığı üzüm sirkesi     1/2 çay kaşığı tuz  Servisi için:      2 dilim kızarmış ekmek     1 yemek kaşığı zeytinyağı     1 çay kaşığı kekik "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView45" />
+
+            <TextView
+                android:text="Nasıl Yapılır?      Zeytinyağını geniş bir tavada kızdırın. Mantarları iyice yıkayıp, temizledikten sonra zeytinyağında bütün ya da dilimlenmiş olarak soteleyin.      Ekmek dilimlerinin üzerine zeytinyağı sürüp, kekik serptikten sonra önceden ısıtılmış 200 derece fırında 2 dakika kadar fırınlayın.      Göbek ve kıvırcık marul yapraklarını, yıkayıp kuruladıktan sonra incecik kıyın. Ardından servis tabağının tabanına yerleştirin.      Üzerine sotelenmiş mantarları, ikiye böldüğünüz bebek mısırları ve halka halka doğradığınız kırmızı soğanı ekleyin.      Domatesi sekiz eşit parçaya böldükten sonra servis tabağının kenar kısımlarına yerleştirin.      Üzüm sirkesi, hardal, zeytinyağı ve tuzu küçük bir kapta çırptıktan sonra salatanın üzerine gezdirin.      Kızarmış ekmek dilimleri eşliğinde servis yapın. Sevdiklerinizle paylaşın. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView46" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_yemek_tarifi3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.seray.mantaryetistirme7mart.YemekTarifi3Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text=" Az da Mantar: Tavuklu Volovan "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView19"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tavukluvolovantarifi_buton"
+                android:id="@+id/imageView9" />
+
+            <TextView
+                android:text="  Yağlı hamur olarak da bilinen dondurulmuş milföy hamurlarından üç katlı olarak hazırlanmış orta kısmı boş hamurlar, tavuklu ve mantarlı iç harçla doluyor. Adı tavuklu volovan oluyor.  Kremalı volovan hamurları gibi tatlı versiyonları da olan volovan tarifi davet yemeklerinizin yeni tadı olabilir. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView20" />
+
+            <TextView
+                android:text="Malzemeler      15 adet milföy hamuru     3 yemek kaşığı zeytinyağı     1 adet orta boy kuru soğan     1 diş sarımsak     200 gram kültür mantarı     500 gram fileto tavuk göğsü     1 adet rendelenmiş limon kabuğu     1/2 su bardağı konserve mısır     200 ml. krema     1/2 su bardağı rendelenmiş kaşar peyniri     1 çay kaşığı tuz     1/2 çay kaşığı taze çekilmiş tane karabiber  Volovan hamurlarını yapıştırmak için:      1 adet yumurta akı  Hamurların üzerine sürmek için:      1 adet yumurta sarısı "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView21" />
+
+            <TextView
+                android:text="Nasıl Yapılır?      Volovan hamurlarını hazırlamak için; dondurulmuş milföy hamurlarını oda sıcaklığında 10 dakika bekletip, çözdürün.      Bir su bardağı ya da bir kurabiye kalıbı kullanarak tüm milföy hamurlarını halka şeklinde kesin. Beş adetini taban olarak kullanmak üzere kenara ayırın.      Kalan 10 adet yuvarlak hamurun ortasını bir çay bardağı ya da daha küçük bir kurabiye kalıbı kullanarak yeniden kesin. Orta kısımlarını çıkartarak alın. Böylelikle orta kısmı da boş olan 10 adet yuvarlak milföy hamuru elde edin.      Yumurta sarısı ve akını ayrı ayrı kaplara ayırın. Taban kısmında kullanmak üzere hazırladığınız beş adet milföy hamurunu yağlı kağıt serili fırın tepsisine alın.      Aralarına yumurta akı sürüp orta kısımları boşluk olan yuvarlak milföy hamurlarını taban kısımları üzerine iki kat halinde yapıştırın. Toplamda beş adet, üç katlı hamurlar hazırlayın. Orta kısımlarını bir çatalın ucu yardımıyla hafifçe delin. Kenar kısımlarına yumurta sarısı sürün.      Önceden ısıtılmış 180 derece fırında 20-25 dakika kızarıp kabarana kadar pişirin.      Volovanların içine dolduracağınız tavuklu iç harcı hazırlamak için; kuru soğanı küçük küpler halinde doğrayın. Sarımsağı bıçağın tersiyle ezip incecik kıyın. Fileto tavuk göğüslerini iri küpler halinde doğrayın. Nemli bir bezle üzerlerini sildiğiniz kültür mantarlarını ince ince dilimleyin. Konserve mısırın suyunu süzün.      Zeytinyağını geniş tabanlı bir tavada kızdırın. Kuru soğanları hafif bir renk alana kadar soteleyin. Lezzet vermesi adına sarımsağı katın. Fileto tavuk göğüslerini ekleyip yüksek ateşte kavurun.      Mantar dilimlerini katıp yüksek ateşte soteleme işlemini sürdürün. Konserve mısır ve rendelenmiş limon kabuğu ile iç harcı zenginleştirin. Tuz ve taze çekilmiş tane karabiber ilavesiyle tatlandırın. Son olarak krema ekleyip kısık ateşte 2-3 dakika kaynattığınız harcı ocaktan alıp soğumaya bırakın.      Fırından çıkan üç katlı hamurların orta kısımlarını hazırladığınız iç harçla doldurun. İç harçla dolan hamurların giderek yükseldiğini göreceksiniz.      Üzerlerine rendelenmiş kaşar peyniri serpiştirdiğiniz hamurları önceden ısıtılmış fırında peynirler eriyene kadar pişirmeye devam edin. Ilık olarak sevdiklerinizle paylaşın. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView22" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

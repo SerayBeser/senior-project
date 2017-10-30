@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_yemek_tarifi4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.seray.mantaryetistirme7mart.YemekTarifi4Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text=" Tek Tek Dökülsün Kaşıktan: Mantarlı Bulgur Pilavı "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView23"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mantarlibulgurpilavitarifi_buton"
+                android:id="@+id/imageView10" />
+
+            <TextView
+                android:text="  Bulgur pilavının bir üst modeli, bir kat daha lezzetlisi mantarlı bulgur pilavı tarifi. Adını tarifte yer alan kültür mantarlarından alıyor elbette ama mantar çeşidinin bir önemi yok. Mantar yalnız kalır mı? Elbette kalmaz. Yanına kuru soğan, havuç, taze soğan ve kurutulmuş domatesi alır. Arzu ettiğiniz mantar çeşidini kullanarak bu sıcacık tavuk suyuyla hazırlanan bulgur pilavını pişirebilirsiniz. Sevdiğiniz bir ana yemek yanına yakışacak bulgur pilavını dumanı üzerinde hayal etsenize bir.  Sıcak tavuk suyu yerine et ya da sebze kullanabilir, pilavlık bulgurla birlikte tel şehriye de kavurabilirsiniz. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView24" />
+
+            <TextView
+                android:text="Malzemeler      3 yemek kaşığı zeytinyağı     1 yemek kaşığı tereyağı     10 adet kültür mantarı     1 adet küçük boy kuru soğan     1 adet küçük boy havuç     4 dal taze soğan     4 adet kurutulmuş domates     1,5 su bardağı pilavlık bulgur     2,5 su bardağı sıcak tavuk suyu     1/2 çay kaşığı tuz     1/4 çay kaşığı karabiber     1 dal taze kekik (arzuya göre) "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView25" />
+
+            <TextView
+                android:text="Nasıl Yapılır?      Mantarlı bulgur pilavını hazırlamak için; üzerlerini nemli bir bezle silip sap kısımlarını kestiğiniz kültür mantarlarını dört eşit parçaya bölün.      Kuru soğanı küçük küpler halinde doğrayın. Kabuğunu soyduğunuz havucu uzun ince şeritler halinde kestikten sonra küçük küpler halinde kesin, arzuya göre rendeleyin. Taze soğanları incecik kıyıp kurutulmuş domatesleri minik küpler halinde kesin.      Zeytinyağı ve tereyağını geniş tabanlı bir pilav tenceresinde eritin. İlk olarak küp şeklinde doğranmış havuçları pilav tenceresine aktarın. Hafif bir renk alana kadar 2-3 dakika soteleyin.      Kuru soğan, mantar ve kurutulmuş domates parçalarını katıp, soteleme işlemini orta ateşte sürdürün. Yumuşak bir yapıda olduğu için son olarak taze soğanları ekleyin ve tüm sebzeleri bir arada soteleyin.      Bol suda yıkadığınız pilavlık iri bulguru, suyunu süzdükten sonra pilav tenceresine alın. Tuz ve karabiber ilave ettikten sonra tüm malzemeyi 3 dakika kadar kavurun.      Sıcak tavuk suyunu eklediğiniz mantarlı bulgur pilavını, kısık ateşte 12-14 dakika pişirin. Bulgurlar suyunu çekince pilavı karıştırmadan üzerine bir kağıt havlu kapatın.      Tane tane olması ve dinlenmesi için 10 dakika kadar beklettiğiniz pilavı, bir kalıp ya da kase yardımıyla şekil vererek servis tabağına çıkartın. Arzuya göre taze kekik parçalarıyla süsleyip sevdiklerinizle paylaşın. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView26" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

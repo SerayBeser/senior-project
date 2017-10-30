@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_yemek_tarifi10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.seray.mantaryetistirme7mart.YemekTarifi10Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text=" Kızarmış Ekmek Yanına: Mantarlı Karides Güveç "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView51" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mantarlikaridesguvectarifi_buton"
+                android:id="@+id/imageView16" />
+
+            <TextView
+                android:text="  Deniz kabuklularının belki de en lezzetli olanı ve her tarifte lezzeti ile kendini ön plana çıkaran karides, sebzeler ile sotelendikten sonra fırın ve güveç lezzetini içine hapsediyor.  Rendelenmiş kaşar peyniri ve tereyağı ile karşı konulmaz bir hal alıyor. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView52" />
+
+            <TextView
+                android:text="Malzemeler      500 gram ayıklanmış karides     200 gram kültür mantarı     2 yemek kaşığı zeytinyağı     1 yemek kaşığı tereyağı     1 adet kuru soğan     4 diş sarımsak     3 adet domates     4 adet yeşil biber     1 tatlı kaşığı pul biber     1 çay kaşığı tuz     1/2 çay kaşığı karabiber  Üzeri için:      1 su bardağı rendelenmiş kaşar peyniri "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView53" />
+
+            <TextView
+                android:text="Nasıl Yapılır?      Kuru soğanı ve sarımsakları küçük küpler halinde doğrayın. Ortadan ikiye kesip, çekirdeklerini çıkardığınız yeşil biberleri ince ince dilimleyin.      Kabuğunu soyduğunuz domatesleri küçük küpler halinde kesin. Mantarları nemli bir bezle silerek temizleyin. Sulanmaması için suda bekletmeyin, bol su altında yıkamayın.      Zeytinyağını bir tavada kızdırın. Sırasıyla; doğranmış soğan ve sarımsakları renk alana kadar soteleyin.      Doğranmış yeşil biber ve domatesleri ekleyin ve soteleme işlemini sürdürün. Küçük ebatlarda ise kesmeden arzuya göre dilimlediğiniz kültür mantarlarını ilave edin.      Son olarak; ayıklanmış karidesleri ekleyin ve tüm malzemeyi yüksek ateşte 2 dakika kadar soteleyin.      Tuz, karabiber ve pul biber katın, karıştırın. Karides karışımını güveç kaplarına paylaştırın. Rendelenmiş kaşar peynirini serpiştirin. Tereyağını dört eşit parçaya bölüp, peynirlerin üzerine yerleştirin.      Önceden ısıtılmış 200 derece fırında peynirler eriyip, nar gibi kızarana kadar fırınlayın. Uzayan kaşar peynirine karşı koymadan sıcak olarak servis edin. Sevdiklerinizle paylaşın. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView54" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

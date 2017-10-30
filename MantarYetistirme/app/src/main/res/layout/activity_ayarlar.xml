@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ayarlar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.seray.mantaryetistirme7mart.AyarlarActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="AYARLAR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView62"
+            android:textStyle="normal|bold"
+            android:background="@android:color/transparent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Switch
+                android:text="Bluetooth"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/id_switch_bluetooth" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/black"
+            android:id="@+id/id_cizgi1" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp" >
+
+            <Switch
+                android:text="Bildirimler"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/id_switch_bildirim" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/black"
+            android:id="@+id/id_cizgi2" />
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:text="Ürün Bilgisi"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/id_button_urunbilgisi"
+                android:textAlignment="viewStart"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                style="@android:style/Widget.Holo.Light.Button.Borderless.Small" />
+
+            <ImageView
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/info"
+                android:id="@+id/imageView22"
+                android:layout_width="20dp"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/arrow"
+                android:id="@+id/imageView25" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorPrimaryDark_seray"
+            android:id="@+id/id_cizgi3" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:text="Kontrol"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/id_button_kontrol"
+                android:textAlignment="viewStart"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                style="@android:style/Widget.Holo.Light.Button.Borderless.Small" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/arrow"
+                android:id="@+id/imageView24" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorPrimaryDark_seray"
+            android:id="@+id/id_cizgi4" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            app:srcCompat="@drawable/settingsiconorange"
+            android:id="@+id/imageView26" />
+    </LinearLayout>
+
+</RelativeLayout>

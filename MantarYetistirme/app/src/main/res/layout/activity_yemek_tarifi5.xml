@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_yemek_tarifi5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.seray.mantaryetistirme7mart.YemekTarifi5Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text=" Vahşi Güzel: Yabani Mantarlı Makarna "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView27"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/yabanimantarlimakarnatarifi_buton"
+                android:id="@+id/imageView11" />
+
+            <TextView
+                android:text='  Mantar konusunda yeterli bilince sahip olmadığımız için senelerce "öcü" olarak tanıtıldılar. Bilinçsiz mantar toplama sebebiyle zehirlenme vakaları bizi kültür mantarına mahkum etti.  Verimli topraklarımız sayesinde, trüf kadar olmasa da, her biri ayrı aromaya sahip, oldukça değerli yabani mantarlara ev sahipliği yapıyoruz. Mantarı mutfaklarında kullanan ve bu konuyu ciddiye alan ülkeler gibi, mantarların yetiştiği bölgelerdeki okullarda, bu konu ile ilgili dersler okutulsa, çok kısa sürede bilinçli bir nesil yetişmiş olur.  Lezzetinin yanı sıra, mantar aslında ne bir bitki ne de bir hayvan. Her ikisininden de özellikler taşıyan, çok yüksek protein değerine sahip bir canlı. Bu sebeple vejetaryenler için de önemli bir gıda.  Yabani mantarlı makarna tarifi, kokusuyla ağız sulandıran, sevgilinizi ve arkadaşlarınızı ne kadar iyi bir aşçı olduğunuza inandırmaya yetecek bir tarif. '
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView32" />
+
+            <TextView
+                android:text="Malzemeler      1/2 paket linguine makarna     2 yemek kaşığı tereyağ     50 gram kuru yabani mantar     1 tatlı kaşığı dijon hardalı     1/2 su bardağı kemik suyu (uzun süre ağır ateşte kaynamış)     2 yemek kaşığı ince kıyılmış maydanoz     1 tatlı kaşığı balzamik sirke (veya 1 yemek kaşığı kırmızı şarap)     2 diş sarımsak     1 çay kaşığı taze çekilmiş karabiber "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView33" />
+
+            <TextView
+                android:text="Nasıl Yapılır?      Nasıl Yapılır      Kuru mantar olmasının sebebi tazelerine çok daha zor ulaşılıyor olması.     Kuru mantarları yemeğinizi pişirmeden 1 saat önce kaynar suya atar ve bekletirseniz, şişer ve yumuşarlar.     Mantar önerim; Sarı kız, kuzu göbeği veya taş mantarı(porçini). Bunlardan sadece birini kullanabilir veya hepsini karıştırarak kullanabilirsiniz.      Yumuşayan mantarları geniş bir tavaya alın, sarımsakları ezip ekleyin ve üzerine 1 kepçe kadar da içinde durduğu sudan ekleyin. Orta ateşte pişirin.      Makarnayı kaynayan tuzlu suya atın ve 8 dakika kadar haşlayın.      Makarnanın haşlandığı sudan 1/2 kepçe kadar mantarlara ekleyin.      Makarnayı süzüp, mantarların üzerine eklemeden hemen önce, hardal, kemik suyu ve balzamik sirkeyi birbiriyle iyice karıştırıp, mantarların üzerine ekleyin.      Hemen ardından süzdüğünüz makarnayı ve tereyağını, mantarların üzerine ekleyin  ve makarnanın aromaları içine çekmesi için karıştırın.      Taze çekilmiş karabiberi de ekleyin.      Makarna, mantarlı suyun birazını çekince, kıyılmış maydanozları da ekleyip şöyle bir karıştırıp servis tabaklarına alın. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView34" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

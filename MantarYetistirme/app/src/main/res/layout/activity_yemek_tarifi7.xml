@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_yemek_tarifi7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.seray.mantaryetistirme7mart.YemekTarifi7Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text=" Sotede Lezzetler: Patatesli Mantar Sote "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView38"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/patateslimantarsotetarif_buton"
+                android:id="@+id/imageView13" />
+
+            <TextView
+                android:text="Mantar sevmeyenler için uzak durulası, mantar sevenler için ise mantarın en güzel hallerinden biri olan patatesli mantar sote, bir hayli doyurucu bir yemek olmakla beraber lezzetli sote sebze yemeklerimizin başında yer almaktadır."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView40" />
+
+            <TextView
+                android:text="Malzemeler      600 gram kültür mantarı     2 adet patates     2 adet kuru soğan     3 adet sivri biber     3 diş sarımsak     2 yemek kaşığı ayçiçek yağı     1 çay kaşığı tuz     1 çay kaşığı pul biber     1/4 demet maydanoz  Patatesleri kızartmak için:      1/2 su bardağı ayçiçek yağı "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView41" />
+
+            <TextView
+                android:text="Nasıl Yapılır?      Soğanları küçük küpler halinde doğrayın. Uzunlamasına kesip, çekirdeklerini çıkardığınız sivri biberleri yarım ay şeklinde kesin.      Kültür mantarlarını büyüklüklerine göre ortadan ikiye kesin. Sarımsakları ve maydanozu incecik kıyın.      Ayçiçek yağını bir tavada kızdırın. Soğan ve sarımsakları renk alana kadar kavurun. Ardından; doğradığınız (küçük ise bütün olarak) mantarları ekleyin ve yüksek ateşte soteleyin.      Sotelenen mantarlı harca doğranmış sivri biberleri ekleyin ve orta ateşte pişirin.      Tuz, pul biber ve kıyılmış maydanozu ekleyin. Soteyi aralarda karıştırarak pişirmeye devam edin.      Kabuğunu soyduğunuz patatesleri parmak şeklinde doğrayın. Ayrı bir kızartma tenceresinde ayçiçek yağını kızdırın. Patatesleri, kızgın yağda renk alana kadar kızartın.      Kızarmış patatesleri mantar soteye katıp, karıştırdıktan sonra ılık olarak servis edin. Sevdiklerinizle paylaşın. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView42" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

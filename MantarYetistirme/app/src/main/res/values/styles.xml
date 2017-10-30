@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary_seray</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_seray</item>
+        <item name="colorAccent">@color/colorAccent_seray</item>
+
+
+    </style>
+
+    <style name="ButtonAppTheme" parent="android:Widget.Holo.Light.Button">
+        <item name="android:borderlessButtonStyle">@android:style/Widget.Holo.Light.Button.Borderless.Small</item>
+    </style>
+
+
+</resources>

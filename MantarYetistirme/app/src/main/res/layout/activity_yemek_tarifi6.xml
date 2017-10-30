@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_yemek_tarifi6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.seray.mantaryetistirme7mart.YemekTarifi6Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text=" Tüm Vejetaryenler İçin: Karışık Sebzeli Mantar Dolması "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView35" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/karisiksebzelimantardolmasi_buton"
+                android:id="@+id/imageView12" />
+
+            <TextView
+                android:text="Tüm vejetaryen grupları için uygun, arzu ettiğiniz sebzeleri ilave ederek de hazırlayabileceğiniz, ön pişirme ve kızartma işlemi gerektirmeyen lezzetli bir mantar dolması hazırlayabilirsiniz."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView36" />
+
+            <TextView
+                android:text="Malzemeler      20 adet büyük mantar (kestane mantarı vb.)     4 yemek kaşığı zeytinyağı     1 adet kuru soğan     3 diş sarımsak     1 adet domates     1 adet dolmalık yeşil biber     1 adet dolmalık sarı biber     1 adet patlıcan     1/4 demet maydanoz     1/2 adet limon suyu     1/2 çay kaşığı tuz     1/2 çay kaşığı karabiber "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView39" />
+
+            <TextView
+                android:text="Nasıl Yapılır?      Mantarların saplarını kesin ve bir kenara ayırın. İç kısımlarını temizleyin. Yağlı kağıt serili bir fırın tepsisine boş kısımları üstte kalacak şekilde aralıklı olarak dizin. Üzerlerini zeytinyağı ile yağlayın.      Kuru soğan ve sarımsakları küçük parçalar halinde yemeklik doğrayın.      Ortadan ikiye kestiğiniz renkli dolmalık biberlerin çekirdeklerini çıkartın. Küçük küpler halinde kesin.      Patlıcanın kabuğunu alacalı olarak soyduktan sonra uzunlamasına sekiz eşit parçaya bölün. Ardından küçük küpler halinde kesin.      Domatesi kabuğunu soymadan küçük küpler halinde doğrayın. Maydanozu ve bir kenara ayırdığınız mantar saplarını incecik kıyın.      Kalan zeytinyağını bir tavada kızdırın. Soğan ve sarımsakları renk alana kadar soteleyin. Aralarda karıştırıp, sotelenmesini sağlayarak sırasıyla; patlıcan, mantar, renkli biber ve domates küplerini katın.      Suyunu çekene kadar sotelenen iç harca ince kıyılmış maydanoz, limon suyu, tuz ve karabiber ekleyin. Tüm malzemeyi karıştırdıktan sonra iç harcı ocaktan alın.      Fırın tepsisine aldığınız mantarların iç kısımlarını hazırladığınız renkli, sağlıklı ve dumanı üzerinde harç ile tepeleme olarak doldurun. Eğer “vegan” değilseniz sebze dolmalarının üzerine birer dilim kaşar yerleştirin ve kendinizi şımartın.      Önceden ısıtılmış 250 derece fırında 10 dakika kadar pişirdikten sonra bekletmeden servis edin. Sevdiklerinizle paylaşın. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView37" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

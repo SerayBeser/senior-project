@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_yemek_tarifi9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.seray.mantaryetistirme7mart.YemekTarifi9Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text=" Baharı Kutluyoruz: Mantarlı Yeşil Soğanlı Tartöletler "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView47"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mantarliyesilsoganlitartolettarifi_buton"
+                android:id="@+id/imageView15" />
+
+            <TextView
+                android:text="Bu sene gözlerimizi yollarda bırakan bahar ılıklığı, nihayet Hıdırellez ile birlikte memlekete teşrif etti. E bize de bunu kutlamak düşer! Bu tartöletler içinize neşe, masanıza lezzet katacak. Temel hamur tarifiyle ister tatlı ister tuzlu pek çok kombinasyon yapmak tamamen sizin yaratıcılığınıza kalmış. Seçeneğiniz bol, bizimkiyse mantarlı ve taze soğanlı."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView48" />
+
+            <TextView
+                android:text="Malzemeler Temel hamuru için:      250 gram buğday unu     125 gram tereyağı     3 yemek kaşığı soğuk su     1/2 çay kaşığı tuz  Dolgu için:      100 ml. süt     200 ml. yoğurt     2 adet yumurta     1 adet yumurta sarısı     1/4 çay kaşığı rendelenmiş muskat cevizi     1/2 çay kaşığı tuz     1/4 çay kaşığı karabiber  Üzeri için:      3 adet büyük boy mantar     2 sap yeşil soğan     1 adet chili biberi     10 yaprak taze fesleğen yaprağı "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView49" />
+
+            <TextView
+                android:text="Nasıl Yapılır?      Hamur için un ve tuzu bir kaba eleyin. Oda sıcaklığındaki tereyağını küp doğrayın ve una ekleyerek parmak uçlarınızla karıştırmaya başlayın. Azar azar suyu da ekleyerek iyice yoğurun. Hamuru streç filme sarıp 30 dakika buzdolabında dinlendirin.      Fırını 180 dereceye ayarlayın. Tart kaplarınızı tezgaha çıkarın. Buzdolabında dinlenen hamuru 8 eşit parçaya bölün ve her birini tart kalıplarına yerleşecek boyda oklava veya uzun bir cam kavanoz yardımıyla açın.      Hamurları tart kalıplarına döşeyin, kenarlarının da eşit şekilde kaplandığından emin olun. Bir çatalın ucuyla hamura delikler açın. 15 dakika fırınlayın.      Mantar, taze soğan ve chili biberi ince kıyın. Fesleğen yapraklarıyla birlikte bir kasede karıştırın.      En son, dolguyu hazırlayın. Tüm malzemeleri bir kasede çırpın. Tart hamurlarını fırından çıkarın ve dolgu sıvısını her birine eşit miktarda dağıtın. Üzerine de mantar karışımını koyun. 20 dakika veya üzeri kızarana dek pişirin. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView50" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

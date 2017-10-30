@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.seray.mantaryetistirme7mart">
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MantarTarifleriActivity" />
+        <activity android:name=".YemekTarifi1Activity" />
+        <activity android:name=".OtomatikKontrolActivity" />
+        <activity android:name=".OzelKontrolActivity" />
+        <activity android:name=".MantarDurumuActivity" />
+        <activity android:name=".MantarBilgileriActivity" />
+        <activity android:name=".YemekTarifi2Activity" />
+        <activity android:name=".YemekTarifi3Activity" />
+        <activity android:name=".YemekTarifi4Activity" />
+        <activity android:name=".YemekTarifi5Activity" />
+        <activity android:name=".YemekTarifi6Activity" />
+        <activity android:name=".YemekTarifi7Activity" />
+        <activity android:name=".YemekTarifi8Activity" />
+        <activity android:name=".YemekTarifi9Activity" />
+        <activity android:name=".YemekTarifi10Activity" />
+        <activity android:name=".AyarlarActivity" />
+        <activity android:name=".MantarSecimiActivity" />
+        <activity android:name=".UrunBilgisiActivity" />
+        <activity android:name=".KontrolActivity"></activity>
+    </application>
+
+</manifest>

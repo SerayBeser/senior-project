@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mantar_tarifleri"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.seray.mantaryetistirme7mart.MantarTarifleriActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="MANTAR TARİFLERİ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:textStyle="normal|bold"
+                android:textAlignment="center" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kremalimantarcorbasitarifi_buton_yeni"
+                android:id="@+id/id_imageButton_corba"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:elevation="1dp"
+                android:contextClickable="false" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mantargratentarifi_buton_yeni"
+                android:id="@+id/id_imageButton_graten" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tavukluvolovantarifi_buton_yeni"
+                android:id="@+id/id_imageButton_volovan" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mantarlibulgurpilavitarifi_buton_yeni"
+                android:id="@+id/id_imageButton_pilav" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/yabanimantarlimakarnatarifi_buton_yeni"
+                android:id="@+id/id_imageButton_makarna" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/karisiksebzelimantardolmasi_buton_yeni"
+                android:id="@+id/id_imageButton_dolma" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/patateslimantarsotetarif_buton_yeni"
+                android:id="@+id/id_imageButton_patates" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mantarsalatasitarifi_buton_yeni"
+                android:id="@+id/id_imageButton_salata" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mantarliyesilsoganlitartolettarifi_buton_yeni"
+                android:id="@+id/id_imageButton_tartolet" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mantarlikaridesguvectarifi_buton_yeni"
+                android:id="@+id/id_imageButton_guvec" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_yemek_tarifi2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.seray.mantaryetistirme7mart.YemekTarifi2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text=" Beşamel Sos Sen Nelere Kadirsin: Mantar Graten "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mantargratentarifi_buton"
+                android:id="@+id/imageView8" />
+
+            <TextView
+                android:text="  Bir pişirme yönetimi olan graten; çiğ ya da sotelenmiş durumda olan yemeğin beşamel sos ve rendelenmiş çeşitli peynirler ile kaplandıktan sonra kızarana kadar fırında bekletildiği süreyi kapsar.  Sosun altındaki malzeme bu sayede yumuşak ve sulu kalırken üst yüzeyi mis kokulu, akışkan ve aynı zamanda çıtır kalır.  Laf aramızda: Vejetaryen beslenmeyi ilke edinmiş sağlıklı bireylerin baş tacı; mantar, kabak, patlıcan, karnabahar, brokoli gibi sebzeler bu pişirme yönetimini çok severler. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView16" />
+
+            <TextView
+                android:text="Malzemeler      500 gram kültür mantarı     1 yemek kaşığı zeytinyağı     4 dal taze soğan  Beşamel sos için:      2 yemek kaşığı tereyağı     2 yemek kaşığı un     3 su bardağı süt     1 çay kaşığı tuz     1/2 çay kaşığı taze çekilmiş tane karabiber  Üzeri için:      1 su bardağı rendelenmiş kaşar peyniri "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView17" />
+
+            <TextView
+                android:text="Nasıl Yapılır?      Sulanmaması için nemli bir bezle temizlediğiniz kültür mantarlarını ince ince dilimleyin.      Taze soğanları incecik kıyın. Zeytinyağını geniş tabanlı bir tavada kızdırın. Mantarları yüksek ateşte 2- 3 dakika kadar soteleyin. Taze soğanları ekleyin, karıştırın.      Sotelenen mantarları ısıya dayanıklı fırın kaplarına eşit olarak paylaştırın.      Beşamel sosu hazırlamak için; tereyağını küçük bir sos tenceresinde eritin. Yağ köpürünce unu azar azar ekleyin ve karıştırarak kokusu çıkana kadar kavurun.      Soğuk sütü azar azar ekleyip, topaklanmaması için bir çırpma teliyle karıştırarak kıvam alana kadar yaklaşık 3 dakika pişirin. Tuz ve taze çekilmiş tane karabiberi ekleyin, karıştırın.      Beyaz sosların kraliçesi beşamel sosu, sotelenmiş mantarların üzerini kaplayacak şekilde fırın kaplarına paylaştırın.      Rendelenmiş kaşar peynirini serpiştirin. Önceden ısıtılmış 200 derece fırında, 10 dakika peynirler eriyene kadar pişirdikten sonra kızarmış ekmek dilimleri ile servis edip, sevdiklerinizle paylaşın. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView18" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

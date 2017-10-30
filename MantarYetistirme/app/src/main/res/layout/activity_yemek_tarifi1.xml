@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_yemek_tarifi1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.seray.mantaryetistirme7mart.YemekTarifi1Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text=" Ekmek Yedirir: Kremalı Mantar Çorbası "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:textStyle="normal|bold"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kremalimantarcorbasitarifi_buton"
+                android:id="@+id/imageView7" />
+
+            <TextView
+                android:text="  Kış sofralarına sıcaklık katan, kremalı kıvamı ile mantar sevdiren mantar çorbası tarifi... Bu tarifte akla ilk gelen kültür mantarı kullanmak olsa da arzu ettiğiniz kayın, kestane vb. mantarlar ile de çorbayı hazırlayabilirsiniz. Unlu terbiye, meyane karışımını küçük bir sos tenceresinde hazırlayabileceğiniz gibi kavrulmuş sebzelerle birlikte de yapabilirsiniz. Sıcak su yerine sıcak tavuk ya da et suyu kullanabilirsiniz. Sevdiğiniz baharatlara çorba karışımında yer verebilirsiniz. Çok az miktarda rendelenmiş muskat cevizinin tarife çok yakışacağını aklınızın bir köşesinde bulundurun mesela. Maydanoz yerine taze kişniş yapraklarıyla süslemeyi deneyin.  Tarifi kendi mutfaklarında hazırlayanlar öneri ve düşüncelerini tarifin altına yorum olarak bıraksın. Farklı mantar çorbaları hazırlamak için alternatifleri birlikte toparlayalım. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView13" />
+
+            <TextView
+                android:text="Malzemeler      250 gram mantar     1 adet orta boy kuru soğan     5 yemek kaşığı zeytinyağı     1/2 su bardağı krema     2 yemek kaşığı un     5 su bardağı sıcak su     1 çay kaşığı tuz     1/2 çay kaşığı taze çekilmiş tane karabiber "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14" />
+
+            <TextView
+                android:text="Nasıl Yapılır?      Üzerlerini nemli bir bez yardımıyla temizlediğiniz mantarları küçük parçalar ya da ince dilimler halinde kesin. Kuru soğanı küçük küpler halinde kesin.      3 yemek kaşığı zeytinyağını geniş bir tencerede kızdırın. Doğranmış kuru soğanları ekleyip kavurmaya başlayın. Mantarları katıp hafif bir renk alıp suyunu çekene kadar kuru soğanlarla birlikte kavurma işlemini sürdürün.      Kavrulan mantar ve kuru soğanlara sıcak su ekleyip kısık ateşte kaynamaya bırakın.      Ayrı bir tavada kalan zeytinyağını kızdırıp azar azar un ekleyin. Kısık ateşte sürekli karıştırıp kokusu çıkana kadar kavurun.      Kaynamakta olan çorba suyundan kavrulmuş una ilave edip bir çırpıcı yardımıyla hızlıca karıştırarak kıvamını açın.      Hazırladığınız unlu terbiye karışımını çorba tenceresine aktarın. Tuz ve taze çekilmiş tane karabiber ile tatlandırın. Aralarda karıştırarak orta ateşte kaynamaya bırakın.      Son olarak kremayı ekleyip kısık ateşte 2-3 dakika daha pişirdikten sonra ocaktan alın. İnce ince doğranmış maydanoz yaprakları eşliğinde sıcağı sıcağına servis yapın. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView15" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
